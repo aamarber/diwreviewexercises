@@ -3,6 +3,7 @@ Given the index.html provided, try to accomplish the next things:
 1. Use bootstrap so:
     - The table uses bootstrap styles
     - The table only uses 50% of the width
+    - The table is centered in the page
 
 2. Setup styles so the page has a "dark theme". Setup the styles in SASS code.
 
