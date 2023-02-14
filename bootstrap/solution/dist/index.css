@@ -9,3 +9,15 @@ body a {
 table th, table td {
   color: #E5E5E5;
 }
+table .btn-primary {
+  background-color: #FCA311;
+  border-color: #FCA311;
+}
+table .btn-primary:hover {
+  background-color: #14213D;
+  border-color: #14213D;
+}
+
+.modal-content {
+  background-color: #14213D;
+}

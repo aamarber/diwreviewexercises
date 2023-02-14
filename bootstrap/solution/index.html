@@ -23,31 +23,50 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="../product/?id=115894">115894</a></td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sweatshirt-modal">
+                                    Show
+                                </button>
                             <td>Swetashirt</td>
                             <td>Super expensive sweatshirt</td>
                             <td>489.99</td>
                         </tr>
                         <tr>
-                            <td><a href="../product/?id=8">8</a></td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#keyboard-modal">
+                                    Show
+                                </button>
+                            </td>
                             <td>Keyboard</td>
                             <td>Nice and cheap mechanic keyboard</td>
                             <td>49.99</td>
                         </tr>
                         <tr>
-                            <td><a href="../product/?id=3">3</a></td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mouthwash-modal">
+                                    Show
+                                </button>
+                            </td>
                             <td>Mouthwash</td>
                             <td>The freshest moutwash ever</td>
                             <td>4.99</td>
                         </tr>
                         <tr>
-                            <td><a href="../product/?id=7">7</a></td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monitor-modal">
+                                    Show
+                                </button>
+                            </td>
                             <td>Monitor</td>
                             <td>Monitor 4K Ultrafull HD Netflix included</td>
                             <td>199.99</td>
                         </tr>
                         <tr>
-                            <td><a href="../product/?id=5">5</a></td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#laptop-modal">
+                                    Show
+                                </button>
+                            </td>
                             <td>Laptop</td>
                             <td>Laptop i5 8GB RAM </td>
                             <td>499.99</td>
@@ -57,5 +76,82 @@
             </div>
         </div>
     </section>
+
+    <div id="sweatshirt-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Swetashirt</h5>
+            </div>
+            <div class="modal-body">
+                <p>Super expensive sweatshirt. 489.99</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="keyboard-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Keyboard</h5>
+            </div>
+            <div class="modal-body">
+                <p>Nice and cheap mechanic keyboard. 49.99</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="mouthwash-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mouthwash</h5>
+            </div>
+            <div class="modal-body">
+                <p>The freshest moutwash ever. 4.99</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="monitor-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Monitor</h5>
+            </div>
+            <div class="modal-body">
+                <p>Monitor 4K Ultrafull HD Netflix included	199.99</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="laptop-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Laptop</h5>
+            </div>
+            <div class="modal-body">
+                <p>Laptop i5 8GB RAM. 499.99</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -4,4 +4,14 @@ table{
     th, td{
         color: colors.$font-color;
     }
+
+    .btn-primary{
+        background-color: colors.$link-color;
+        border-color: colors.$link-color;
+
+        &:hover{
+            background-color: colors.$secondary-color;
+            border-color: colors.$secondary-color;
+        }
+    }
 }
