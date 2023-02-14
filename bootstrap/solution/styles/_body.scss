@@ -1,0 +1,10 @@
+@use '_colors.scss';
+
+body{
+    background-color: colors.$background;
+    color: colors.$font-color;
+
+    a{
+        color: colors.$link-color;
+    }
+}

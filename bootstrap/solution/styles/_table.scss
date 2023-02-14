@@ -1,0 +1,7 @@
+@use '_colors.scss';
+
+table{
+    th, td{
+        color: colors.$font-color;
+    }
+}

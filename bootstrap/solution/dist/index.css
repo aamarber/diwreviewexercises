@@ -1,0 +1,11 @@
+body {
+  background-color: #000000;
+  color: #E5E5E5;
+}
+body a {
+  color: #FCA311;
+}
+
+table th, table td {
+  color: #E5E5E5;
+}
