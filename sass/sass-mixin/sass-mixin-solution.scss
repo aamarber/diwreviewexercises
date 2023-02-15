@@ -1,0 +1,17 @@
+@mixin text-style($color){
+    font-weight: bolder;
+    text-decoration: solid;
+    color: $color;
+}
+
+p{
+    @include text-style(red);
+}
+
+span{
+    @include text-style(red);
+}
+
+input{
+    @include text-style(blue);
+}
