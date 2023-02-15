@@ -1,0 +1,13 @@
+div.section {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: pink;    
+}
+
+div.primary-section{
+    font-size: larger;
+}
+
+div.secondary-section{
+    font-size: smaller;
+}
