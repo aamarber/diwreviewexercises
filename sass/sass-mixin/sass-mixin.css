@@ -1,0 +1,17 @@
+p{
+    font-weight: bolder;
+    text-decoration: solid;
+    color: red;
+}
+
+span{
+    font-weight: bolder;
+    text-decoration: solid;
+    color: red;
+}
+
+input{
+    font-weight: bolder;
+    text-decoration: solid;
+    color: blue;
+}

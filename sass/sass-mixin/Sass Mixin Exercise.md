@@ -1,0 +1,1 @@
+Refactor the CSS rules in the sass-mixin.css file so they use a SASS mixin to specify their properties.
